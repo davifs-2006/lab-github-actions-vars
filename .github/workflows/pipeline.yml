@@ -44,7 +44,7 @@ jobs:
       - name: "Passo 5: Usar Codigo Dinamico"
         run: |
           # TODO: Imprima o BUILD_HASH gerado no passo anterior
-          echo "O hash gerado para este build foi: [VALOR_DO_HASH]"
+          echo "O hash gerado para este build foi: $BUILD_HASH"
 
   deploy_app:
     name: Deploy da Aplicacao
