@@ -30,7 +30,7 @@ jobs:
         run: |
           # TODO: Complete esta secao usando variaveis de ambiente padrao do GitHub Actions
           # Exemplo: echo "Repositorio: $GITHUB_REPOSITORY"
-          echo "O usuario [NOME_DO_USUARIO] disparou este workflow no repositorio [NOME_DO_REPO]. O sistema operacional do runner e [SISTEMA_OPERACIONAL]."
+          echo "O usuário $GITHUB_ACTOR disparou este workflow no repositório $GITHUB_REPOSITORY. O sistema operacional do runner é $RUNNER_OS."
 
       - name: "Passo 4: Gerar Codigo Dinamico"
         id: gerar_codigo
